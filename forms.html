@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/submit" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <input type="submit" value="Submit">
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+    </form>
+    <label for="comments">Comments:</label>
+    <br>
+    <textarea id="comments" name="message" rows="4" cols="50">
+Enter your message here...</textarea>
+    <form action="/submit">
+        <textarea name="comment" rows="4" cols="50">Enter your comment here...</textarea>
+        <br>
+        <select name="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
