@@ -6,6 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <video src="video1.mp4" controls ></video>
+    <video src="video1.mp4" width="400" height="300" controls autoplay></video>
+    <video src="video1.mp4" width="400" height="300" controls loop></video>
+    <video src="video1.mp4" width="400" height="300" controls muted poster="image2.png"></video>
+    <audio src="audio.ogg" controls></audio>
+    <!-- video audio and svg(scalable vector graphics) all are inline elements, so they can be placed in a line -->
+     <svg width="400" height="300">
+        <rect x="10" y="10" width="380" height="280" fill="lightblue" stroke="black" stroke-width="2"></rect>
+        <circle cx="200" cy="150" r="50" fill="red"></circle>
+        <text x="200" y="150" font-size="20" text-anchor="middle" fill="white">SVG</text>
+        <img src="img.svg"  />
+</svg>
 </body>
 </html>
