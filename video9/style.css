@@ -1,0 +1,11 @@
+.red{
+    color: red;
+}
+.firstclass{
+    background-color: blue;
+}
+#firstdiv{
+    /* background-color: red; */
+    width: 200px;
+    height: 200px;
+}
