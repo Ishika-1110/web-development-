@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Boxmodel</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            background-color: aqua;
+        }
+        .box1{
+            color: rgb(5, 5, 5);
+            padding: 10px;
+            margin:40px;
+            border: 2px solid blue;
+            height: 200px;
+            box-sizing: border-box;
+        }
+        .box2{
+            color:rgb(189, 25, 148);
+            padding: 10px;
+            margin:25px;
+            border: 2px solid rgb(29, 29, 27);
+            height: 200px;
+            box-sizing: border-box;
+        }
+        /* margin collapse hota hai jab do vertical margins ek dusre ke sath milte hain to dono margins collapse ho jate hain aur maximum margin apply hota hai. */
+    </style>
+</head>
+
+<body>
+    <div class="box box1">I am first box</div>
+    <div class="box box2">I am secondbox</div>
+</body>
+
+</html>
