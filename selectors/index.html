@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /*element selector*/
+        /* div {
+            background-color: blue;
+        } */
+         /* class selector */
+         .blue {
+            background-color: blue;
+        }
+        /* id selector */
+        #purple {
+             background-color: purple;
+        }
+        /* child selectors div ke andar hi p hona chahiye */
+        div > p {
+            color: white;
+            background-color: black;
+        }
+        /* descendent selector p bas andar hona chahiye */
+         div  p {
+            color: rgb(30, 211, 45);
+            background-color: rgb(224, 35, 35);
+        }
+            /* universal selector */
+            * {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        /* pseudo class selector */
+        a:active{
+            background-color: rgb(199, 41, 146);
+        }
+        a:visited{
+            color: rgb(18, 173, 39);
+        }
+        a:link{
+            color: rgb(238, 200, 29);
+        }
+        a:hover{
+            color: rgb(49, 228, 252);
+        }
+        h1:first-child{
+            color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="one">
+        <h1>Selectors</h1>
+        <h1>hello this is me Ishika.</h1>
+
+    </main>
+
+    <p>hello this is me Ishika.</p>
+    <div class="blue">
+        hello this is me Ishika .
+        <p>hi pagal ho kya</p>
+    </div>
+    <div id="purple">
+        hello this is my friend rashi.
+        <article>
+            
+        <p>hi pagal ho kya</p>
+        </article>
+    </div>
+    <a href="https://www.google.com/">google</a>
+    <a href="https://www.github.com/">github</a>
+</body>
+</html>
